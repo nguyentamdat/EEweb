@@ -1,0 +1,215 @@
+body {
+    width: 1440px;
+    height: 2854px;
+    background-color: #ffffff;
+}
+
+header {
+    list-style-type: none;
+}
+
+header li {
+    display: inline-block;
+}
+
+#Ref {
+    width: 1440px;
+    height: 40px;
+    background-color: #ffffff;
+    border-bottom: solid 1px rgba(222, 222, 222, 1);
+    position: relative;
+    display: grid;
+    grid-template-columns: 154px auto 154px;
+    justify-content: space-around;
+}
+
+.InnerRef {
+    place-self: center;
+    display: flex;
+}
+
+#left-ref {
+    justify-content: center;
+    align-items: center;
+}
+
+#left-ref li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#right-ref li {
+    margin-right: 20px;
+}
+
+.icHotline {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+#Hotline {
+    width: 138px;
+    height: 15px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.icfb {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.icYoutube {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.icEnglish {
+    width: 20px;
+    height: 13px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+#ENGLISH {
+    width: 70px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    border-right: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+#CONTACT {
+    width: 76px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    border-right: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+#LOGIN {
+    width: 58px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1869df;
+    border-right: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+.icSearch {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+}
+
+#Name {
+    width: 1440px;
+    height: 117px;
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 82px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.FullName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FullName li {
+    margin: 5px;
+}
+
+#Department {
+    width: 562px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.41px;
+    text-align: center;
+    color: #000000;
+}
+
+#Faculty {
+    width: 355px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.33px;
+    color: #000000;
+}
+
+#NavBar {
+    width: 1440px;
+    height: 50px;
+    background-color: #0078f3;
+    text-align: center;
+    display: grid;
+}
+
+.NavWord {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+nav ul {
+    place-self: center;
+    justify-items: space-evenly;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 60px;
+}
